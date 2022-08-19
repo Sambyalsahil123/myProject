@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import { Routes, Route } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 const App = () => {
 
     return (
@@ -19,7 +20,7 @@ const App = () => {
                 <Route exact path="/Contact" element={<Contact />} />
 
             </Routes>
-
+            <Footer />
         </>);
 };
 export default App;

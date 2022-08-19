@@ -1,12 +1,12 @@
 import React from "react"
-import android from "../src/images/android.jpg" 
+import logo from "../src/images/logo.jpg"
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Common from "./Component";
 const Home = () => {
     return (
         <>
             <Common name="Grow your business with"
-                imgsrc={android}
+                imgsrc={logo}
                 visit="/service"
                 btnname="Get Started" />
 

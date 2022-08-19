@@ -26,7 +26,7 @@ const Navbar = () => {
                                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                                         <li className="nav-item">
 
-                                            <NavLink activeClassName="menu_active"
+                                            <NavLink activeclassname="menu_active"
                                                 exact
                                                 className="nav-link active"
                                                 aria-current="page"
@@ -34,15 +34,15 @@ const Navbar = () => {
                                             </NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink activeClassName="menu_active" className="nav-link" to="/Service">Services
+                                            <NavLink activeclassname="menu_active" className="nav-link" to="/Service">Services
                                             </NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink activeClassName="menu_active" className="nav-link" to="/About">About
+                                            <NavLink activeclassname="menu_active" className="nav-link" to="/About">About
                                             </NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink activeClassName="menu_active" className="nav-link" to="/Contact">Contact
+                                            <NavLink activeclassname="menu_active" className="nav-link" to="/Contact">Contact
                                             </NavLink>
                                         </li>
 
