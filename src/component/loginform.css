@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cover {
+    background-color: aliceblue;
+    width: 25rem;
+    height: 30em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(133, 107, 107);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.altLogin {
+    margin-left: 1px;
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.altLogin div {
+    width: 35%;
+    height: 90%;
+    border-radius: 0.25rem;
+    background-color: rgb(180, 194, 185);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.google {
+    margin-left: 15px;
+    background-image: url('../component/image/google.png');
+}
+
+.facebook {
+    margin-left: 15px;
+    background-image: url('../component/image/fb.png');
+}
+
+input {
+    border-radius: 1em;
+    border: none;
+    padding: 2em;
+    height: 4em;
+    border-radius: 0.25;
+    width: 80%;
+    background-color: rgb(229, 226, 226);
+    text-align: center;
+}
+
+input:focus {
+    outline-color: rgb(139, 242, 242);
+
+}
+
+.text {
+    position: relative;
+    /* bottom: -em; */
+}
+
+.hide {
+    display: none;
+    transform: scale(0);
+}
+
+.login-popup {
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
+.forget{
+    font-size: 10px;
+}
+.forget:hover{
+ color: rgb(53, 53, 237);
+}
