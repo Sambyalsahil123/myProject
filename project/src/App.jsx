@@ -2,8 +2,8 @@ import React from 'react'
 import { useFormik } from 'formik'
 import { signUpSchema } from './Schemas/index';
 import './index.css'
-const initialValues = {
 
+const initialValues = {
     name: "",
     email: "",
     password: "",
